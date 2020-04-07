@@ -54,7 +54,7 @@ namespace :airbrake do
 
     deploy_params = {
       environment: ENV['ENVIRONMENT'],
-      username: ENV['USERNAME'],
+      username: 'testname111', # ENV['USERNAME'],
       revision: ENV['REVISION'],
       repository: ENV['REPOSITORY'],
       version: ENV['VERSION'],
